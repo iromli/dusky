@@ -83,3 +83,8 @@ Kudos
 * [The original idea](http://is.gd/e5Lt4d)
 * [A fork of MySQLdb](https://github.com/eliast/async-MySQL-python)
 * [Torndb](https://github.com/bdarnell/torndb), the blocking MySQL wrapper, for its API
+
+Copyright
+---------
+
+Dusky is released under MIT license. See `LICENSE.txt` for details.
