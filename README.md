@@ -1,12 +1,12 @@
 Dusky
 =====
 
-Dusky is a small MySQL wrapper on top of async MySQLdb, patched for use in Tornado-based app.
+Dusky is a lightweight wrapper around async MySQLdb, patched for use in Tornado-based app.
 
 Install
 -------
 
-Since Dusky is not available at [pypi](http://pypi.python.org), you'll need to
+Since Dusky is not available at [PyPI](http://pypi.python.org), you'll need to
 grab this library manually:
 
 * `python setup.py install`
