@@ -1,1 +1,0 @@
--e git://github.com/eliast/async-MySQL-python.git@master#egg=mysqldb-dev

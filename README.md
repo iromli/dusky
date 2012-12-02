@@ -10,7 +10,7 @@ Since Dusky is not available at [PyPI](http://pypi.python.org), you'll need to
 grab this library manually:
 
 * `python setup.py install`
-* use `pip install -r requirements.txt` to install async MySQLdb.
+* use `pip install -e git://github.com/eliast/async-MySQL-python.git@master#egg=mysqldb-dev` to install the async MySQLdb
 
 Example
 -------
