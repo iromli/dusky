@@ -38,3 +38,4 @@ venv
 example.py
 venv
 examples/simple/local_config.py
+examples/sqla/local_config.py
