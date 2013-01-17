@@ -2,15 +2,28 @@
 try:
     from setuptools import setup
 except ImportError:
-    from distutils.core import setup
+    from distutils.core import setup  # NOQA
+
+from dusky import __version__, __author__
 
 
 setup(
     name='dusky',
-    version='0.1.0',
-    author='Isman Firmansyah',
+    description='Execute async MySQL queries within Tornado IOLoop',
+    version=__version__,
+    author=__author__,
     author_email='isman.firmansyah@gmail.com',
     url='https://github.com/iromli/dusky',
     py_modules=['dusky'],
-    install_requires=['tornado', 'torndb']
+    install_requires=['tornado', 'torndb'],
+    classifiers=[
+        'Development Status :: 2 - Pre-Alpha',
+        'Intended Audience :: Developers',
+        'License :: OSI Approved :: MIT License',
+        'Programming Language :: Python',
+        'Programming Language :: Python :: 2.6',
+        'Programming Language :: Python :: 2.7',
+        'Topic :: Database',
+        'Topic :: Database :: Front-Ends',
+    ]
 )
