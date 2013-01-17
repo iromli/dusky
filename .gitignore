@@ -37,5 +37,4 @@ nosetests.xml
 venv
 example.py
 venv
-examples/simple/local_config.py
-examples/sqla/local_config.py
+examples/local_config.py
