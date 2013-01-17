@@ -6,10 +6,6 @@ import tornado.ioloop
 import torndb
 
 
-__version__ = '0.1'
-__author__ = 'Isman Firmansyah'
-
-
 # Borrowed from MySQLdb, used to parse the multiple insertion queries.
 restr = (
     r"\svalues\s*"

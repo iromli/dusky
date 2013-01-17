@@ -4,14 +4,12 @@ try:
 except ImportError:
     from distutils.core import setup  # NOQA
 
-from dusky import __version__, __author__
-
 
 setup(
     name='dusky',
     description='Execute async MySQL queries within Tornado IOLoop',
-    version=__version__,
-    author=__author__,
+    version='0.1.1',
+    author='Isman Firmansyah',
     author_email='isman.firmansyah@gmail.com',
     url='https://github.com/iromli/dusky',
     py_modules=['dusky'],
