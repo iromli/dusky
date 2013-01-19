@@ -1,7 +1,7 @@
 Dusky
 =====
 
-Dusky is a lightweight wrapper around async MySQLdb, patched for use in Tornado-based app.
+Dusky is a lightweight wrapper around async MySQLdb, that works within Tornado IOLoop. Note, this library is not tested in production yet. Use Dusky at your own risk.
 
 Install
 -------
