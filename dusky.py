@@ -17,7 +17,7 @@ restr = (
 insert_values = re.compile(restr, re.IGNORECASE)
 
 
-class AsyncConnection(torndb.Connection):
+class MySQLConnection(torndb.Connection):
     """ A lightweight wrapper around async MySQLdb DB-API connection.
 
     The API is mostly borrowed from Torndb, except you'll need to pass
@@ -25,7 +25,7 @@ class AsyncConnection(torndb.Connection):
 
     Typical usage::
 
-        adb = dusky.AsyncConnection('localhost', 'fakedb')
+        adb = dusky.MySQLConnection('localhost', 'fakedb')
 
     The oldschool style::
 
@@ -229,7 +229,7 @@ class AsyncConnection(torndb.Connection):
                 if len(rows) > 1:
                     self._throw_error(
                         Exception('Multiple rows returned for '
-                                  'AsyncConnection.get() query'),
+                                  'MySQLConnection.get() query'),
                         on_error)
                 if not rows:
                     rows = None

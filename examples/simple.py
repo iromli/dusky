@@ -6,14 +6,14 @@ import tornado.ioloop
 
 import config
 
-from dusky import AsyncConnection
+from dusky import MySQLConnection
 from tornado.options import parse_command_line
 
 
 class App(tornado.web.Application):
     @property
     def adb(self):
-        return AsyncConnection(
+        return MySQLConnection(
             config.DB_HOST,
             config.DB_NAME,
             user=config.DB_USER,
