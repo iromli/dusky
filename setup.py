@@ -8,7 +8,7 @@ except ImportError:
 setup(
     name='dusky',
     description='Execute async MySQL queries within Tornado IOLoop',
-    version='0.1.1',
+    version='0.2.1',
     author='Isman Firmansyah',
     author_email='isman.firmansyah@gmail.com',
     url='https://github.com/iromli/dusky',
